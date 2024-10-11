@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "mai-prob-course"
+version = "0.0.1"
+description = "A simple project showcasing various probabilistic methods for a course in my masters programme"
+authors = ["HackXIt <hackxit@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.10,<=3.12"
+numpy = "^2.1.1"
+matplotlib = "^3.9.2"
+scikit-learn = "^1.5.1"
+ipykernel = "^6.29.5"
+notebook = "^7.2.2"
+pandas = "^2.2.3"
+ucimlrepo = "^0.0.7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
